@@ -24,7 +24,6 @@ public class UniqueNO {
         Iterator<Integer>it= h1.iterator();
         while(it.hasNext())
         {
-
            Integer elem= it.next();
             System.out.println("the element printing using the has next is "+elem);
 
