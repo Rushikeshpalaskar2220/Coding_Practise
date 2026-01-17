@@ -54,13 +54,17 @@ public class EmployeeEg {
         List<Employee>employees= Arrays.asList(
 
                 new Employee(1,"Rushi",25,"Male",90000),
-                new Employee(1,"Rushi",25,"Male",90000),
-                new Employee(1,"Rushi",25,"Male",90000)
+                new Employee(2,"Rohit",27,"Male",60000),
+                new Employee(3,"Mahesh",25,"Male",50000)
 
 
         );
 
         System.out.println(employees);
+
+        List<Employee>employees1=employees.stream().toList();
+
+        System.out.println(employees1);
 
     }
 }
