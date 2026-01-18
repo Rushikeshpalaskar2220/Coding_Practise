@@ -62,7 +62,9 @@ public class EmployeeEg {
 
         System.out.println(employees);
 
+
         List<Employee>employees1=employees.stream().toList();
+
 
         System.out.println(employees1);
 
