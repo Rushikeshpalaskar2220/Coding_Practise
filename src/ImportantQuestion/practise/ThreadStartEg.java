@@ -26,7 +26,8 @@ class Mythread2 extends Thread
 public class ThreadStartEg {
     public static void main(String[] args) {
         Mythread thread=new Mythread();
-        thread.start();
+       // thread.start();
+        thread.run();
         System.out.println(  thread.getId());
         Mythread2 thread2=new Mythread2();
         System.out.println(  thread2.getId());
