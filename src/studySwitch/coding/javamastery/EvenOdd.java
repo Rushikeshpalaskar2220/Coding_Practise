@@ -1,4 +1,4 @@
-package studySwitch.coding;
+package studySwitch.coding.javamastery;
 
 import java.util.Scanner;
 
